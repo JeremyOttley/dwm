@@ -1,0 +1,6 @@
+#!/bin/bash
+
+CONFIG_FILE=config.h
+BACKUPTIME=`date +%b-%d-%y`
+
+mv -vi $CONFIG_FILE $BACKUPTIME-$CONFIG_FILE
