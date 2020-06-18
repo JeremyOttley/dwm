@@ -2,6 +2,10 @@
 # FUNCTIONS
 # ----------------------------------------------------------------------
 
+function dwm_patch {
+  patch -p1 < $1
+}
+
 # List contents after cd
 
 function cd()
