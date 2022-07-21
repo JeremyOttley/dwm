@@ -1,0 +1,3 @@
+function ytPlaylist() {
+  yt-dlp --verbose -ci --download-archive "archive.txt" https://www.youtube.com/playlist?list=$1
+}
